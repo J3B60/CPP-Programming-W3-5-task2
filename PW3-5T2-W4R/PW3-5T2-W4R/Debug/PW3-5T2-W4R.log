@@ -1,0 +1,13 @@
+﻿  cargostorage.cpp
+n:\my documents\programming practical\pw3-5t2\pw3-5t2\cargostorage.cpp(18): warning C4018: '<': signed/unsigned mismatch
+n:\my documents\programming practical\pw3-5t2\pw3-5t2\cargostorage.cpp(30): warning C4018: '<': signed/unsigned mismatch
+n:\my documents\programming practical\pw3-5t2\pw3-5t2\cargostorage.cpp(44): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Compiling...
+  simpletruck.cpp
+n:\my documents\programming practical\pw3-5t2\pw3-5t2\simpletruck.cpp(17): warning C4018: '<': signed/unsigned mismatch
+n:\my documents\programming practical\pw3-5t2\pw3-5t2\simpletruck.cpp(29): warning C4018: '<': signed/unsigned mismatch
+  Source.cpp
+  Generating Code...
+  PW3-5T2-W4R.vcxproj -> N:\My Documents\Programming Practical\PW3-5T2-W4R\Debug\PW3-5T2-W4R.exe
+  PW3-5T2-W4R.vcxproj -> N:\My Documents\Programming Practical\PW3-5T2-W4R\Debug\PW3-5T2-W4R.pdb (Partial PDB)
