@@ -50,11 +50,22 @@ int Pallet::GetMaxWeight() {
 	return Pallet::maxWeight;				//maxWeight defined from?? (Return to Source.cpp rather than print)
 }
 
-Pallet::Pallet(int i, int mW) {
-	Pallet::id = i;
+Pallet::Pallet(int mW) {
+	Pallet::id = id++;
 	Pallet::maxWeight = mW;
+}
+
+Pallet::Pallet() {
+	id = -1;
+	maxWeight = -1;
+}
+
+int Pallet::GetID() {
+	return id;
 }
 
 Pallet::~Pallet() {
 	//###
 }
+
+int Pallet::id = 1;

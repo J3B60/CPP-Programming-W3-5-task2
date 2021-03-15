@@ -14,11 +14,12 @@ public:
 	string GetItemAtPosition(int position);
 	int GetCurrentWeight();
 	int GetMaxWeight();
-	Pallet() {};
-	Pallet(int i, int mW);
+	Pallet();
+	Pallet(int mW);
 	~Pallet();
+	int GetID();
 protected:
-	int id;
+	static int id;
 	int maxWeight;
 	vector<string> PalletItems;
 };

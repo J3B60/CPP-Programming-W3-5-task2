@@ -13,13 +13,13 @@ public:
 	bool AddPalletAtPosition(int position, Pallet pallet);
 	Pallet RetrievePalletFromPosition(int position);
 	void ListContents();
-	CargoStorage(){}
-	CargoStorage(int id_cs, int mS);
+	CargoStorage();
+	CargoStorage(int maxS);
 	~CargoStorage();
-protected:
-	int maxStorage;
-	int id_cargostorage;
 	vector<Pallet> CargoStorageItems; //Set to 10 as in worksheet
+protected:
+	static int id_cs;
+	
 	
 };
 #endif

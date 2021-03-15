@@ -12,11 +12,11 @@ class SimpleTruck {
 public:
 	bool PickUpItem(int position, CargoStorage& storage);
 	bool PutDownItem(int position, CargoStorage& storage);
-	SimpleTruck() {}
+	SimpleTruck();
 	SimpleTruck(int id_st);
 	~SimpleTruck();
 protected:
-	int id_simpletruck;
+	static int id_simpletruck;
 	Pallet Item;//####
 
 };
