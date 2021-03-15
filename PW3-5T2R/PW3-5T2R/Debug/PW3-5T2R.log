@@ -1,0 +1,7 @@
+﻿  pallet.cpp
+n:\my documents\programming practical\pw3-5t2r\pw3-5t2r\pallet.cpp(13): warning C4018: '<=': signed/unsigned mismatch
+n:\my documents\programming practical\pw3-5t2r\pw3-5t2r\pallet.cpp(37): warning C4018: '<=': signed/unsigned mismatch
+  Source.cpp
+  Generating Code...
+  PW3-5T2R.vcxproj -> N:\My Documents\Programming Practical\PW3-5T2R\Debug\PW3-5T2R.exe
+  PW3-5T2R.vcxproj -> N:\My Documents\Programming Practical\PW3-5T2R\Debug\PW3-5T2R.pdb (Partial PDB)
